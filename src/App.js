@@ -14,7 +14,7 @@ const App = () => {
       },
       viewer.current,
     ).then((instance) => {
-      const { documentViewer, annotationManager, Annotations } = instance.Core;
+      // const { documentViewer, annotationManager, Annotations } = instance.Core;
       instance.UI.enableElements(['contentEditButton']);
     });
   }, []);
