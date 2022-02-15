@@ -48,6 +48,12 @@ WebViewer(
  viewer.current,
 ).then((instance) => {
 ```
+### Step to deploy to Github Page:
+1. Run build script: `npm run build`
+2. Remove the current `docs` folder
+3. Rename the `build` folder to `docs` folder
+4. Commit and push the changes
+5. Check [here](https://dongtanhuy.github.io/webviewer-react-sample/) to see the result
 
 ## WebViewer APIs
 
